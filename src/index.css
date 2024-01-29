@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* use font */
+body,html{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* event image */
+.event{
+  background-image: url('/src/assets/Images.png');
+}
+
+/* service */
+.service{
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.00) 100%);
+}
+.service1{
+  background: #F5F6F7;
+}
