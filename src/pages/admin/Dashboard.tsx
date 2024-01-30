@@ -52,7 +52,7 @@ const Dashboard = () => {
       <div className="navbar bg-base-100">
         <div className="flex-1">
           <div className="flex-1  text-[32px] font-semibold text-[#000000]">
-            Crazy <span className="ml-1 text-[#0B63E5]">Hour</span>
+            Event<span className="ml-1 text-[#0B63E5]">City</span>
           </div>
         </div>
         <div className="flex-none">
@@ -61,10 +61,10 @@ const Dashboard = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a className="text-[16px] font-medium">Link</a>
+              <a className="text-[16px] font-medium">Service</a>
             </li>
             <li>
-              <a className="text-[16px] font-medium">Link</a>
+              <a className="text-[16px] font-medium">Event</a>
             </li>
           </ul>
         </div>
@@ -106,7 +106,7 @@ const Dashboard = () => {
       <div className="chart flex justify-center gap-10 items-center flex-wrap mt-5 pb-5">
         <div className="p-5 rounded-md shadow-xl">
           <BarChart width={600} height={500} data={data}>
-            <Bar dataKey="uv" fill="#000" />
+            <Bar dataKey="uv" fill="#0B63E5" />
           </BarChart>
         </div>
         <div className="p-6 rounded-md shadow-xl">

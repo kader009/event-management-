@@ -22,13 +22,13 @@ const EventItems = () => {
           <div className=" col-span-8">
             <div className="flex justify-center items-center sm:flex-col gap-[20px] mb-[20px] lg:flex-row">
               <div className="bg-[#D9D9D9] w-[412px] p-[16px] rounded-md bg-opacity-40">
-                <img src={event6} alt="event" />
+                <img src={event6} alt="event" className="mb-[12px]" />
                 <span className="text-[#000000] text-[18px] ">
                   Event Item - 6
                 </span>
               </div>
               <div className="bg-[#D9D9D9] w-[412px] p-[16px] rounded-md bg-opacity-40">
-                <img src={event5} alt="event" />
+                <img src={event5} alt="event" className="mb-[12px]" />
                 <span className="text-[#000000] text-[18px] ">
                   Event Item - 5
                 </span>
@@ -37,19 +37,19 @@ const EventItems = () => {
 
             <div className="flex justify-center items-center gap-[20px] sm:flex-col lg:flex-row">
               <div className="bg-[#D9D9D9] w-[196px] p-[16px] rounded-md bg-opacity-40">
-                <img src={event2} alt="event" />
+                <img src={event2} alt="event" className="mb-[12px]" />
                 <span className="text-[#000000] text-[18px] ">
                   Event Item - 2
                 </span>
               </div>
               <div className="bg-[#D9D9D9] w-[196px] p-[16px] rounded-md bg-opacity-40">
-                <img src={event3} alt="event" />
+                <img src={event3} alt="event" className="mb-[12px]" />
                 <span className="text-[#000000] text-[18px] ">
                   Event Item - 3
                 </span>
               </div>
               <div className="bg-[#D9D9D9] w-[412px] p-[16px] rounded-md bg-opacity-40">
-                <img src={event4} alt="event" />
+                <img src={event4} alt="event" className="mb-[12px]" />
                 <span className="text-[#000000] text-[18px] ">
                   Event Item - 4
                 </span>
@@ -57,7 +57,11 @@ const EventItems = () => {
             </div>
           </div>
           <div className="col-span-4  bg-[#D9D9D9] w-[412px] p-[16px] rounded-md ms-[20px] bg-opacity-40 md:mt-5 sm:col-span-12 sm:mx-auto md:mx-auto sm:mt-5 md:col-span-12 lg:col-span-4 lg:mt-0 lg:ms-[20px]">
-            <img src={event1} alt="event" className="h-[438px] w-[380px]" />
+            <img
+              src={event1}
+              alt="event"
+              className="h-[452px] w-[380px] mb-[12px]"
+            />
             <span className="text-[#000000] text-[18px] ">Event Item - 1</span>
           </div>
         </div>

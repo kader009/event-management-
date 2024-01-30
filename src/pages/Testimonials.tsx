@@ -38,7 +38,7 @@ const Testimonials = () => {
           </div>
         </div>
         {/* client review */}
-        <div className='flex justify-center gap-[14px] items-center  sm:flex-col md:flex-col lg:flex-row'>
+        <div className="flex justify-center gap-[14px] items-center  sm:flex-col md:flex-col lg:flex-row">
           <div className="w-[424px] h-[400px] bg-[#FFF9EE] rounded-2xl mt-[70px]">
             <div className="flex ml-[40px] pt-[40px] gap-[12px]">
               <img src={avatar} alt="avatar" />
@@ -93,8 +93,7 @@ const Testimonials = () => {
                   Annette Black
                 </h1>
                 <p className="text-[#42526B] text-[14px]">
-                  CEO of{' '}
-                  <span className="text-[#7534FF]">Youtube</span>
+                  CEO of <span className="text-[#7534FF]">Youtube</span>
                 </p>
               </div>
             </div>

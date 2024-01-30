@@ -36,7 +36,7 @@ const UpComing = () => {
                 </p>
               </div>
             </div>
-            <div className="divider w-[400px]"></div>
+            <div className="divider w-[472px]"></div>
             <div className="flex gap-[20px]">
               <img src={Cpu} alt="stack" className="w-[40px] h-[40px]" />
               <div>

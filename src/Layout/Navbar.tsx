@@ -43,7 +43,7 @@ const Navbar = () => {
                 </label>
               </div>
               <div className="flex-1  text-[32px] font-semibold text-[#000000]">
-                Crazy <span className="ml-1 text-[#0B63E5]">Hour</span>
+                Event <span className="ml-1 text-[#0B63E5]">City</span>
               </div>
               <div className="flex-none hidden lg:block">
                 <ul className="menu menu-horizontal">
@@ -58,7 +58,9 @@ const Navbar = () => {
                     <a className="text-[16px] font-medium">Content</a>
                   </li>
                   <li>
-                    <NavLink to='dashboard' className="text-[16px] font-medium">Dashboard</NavLink>
+                    <NavLink to="dashboard" className="text-[16px] font-medium">
+                      Dashboard
+                    </NavLink>
                   </li>
                 </ul>
               </div>
@@ -82,7 +84,9 @@ const Navbar = () => {
                 <a className="text-[16px] font-medium">Contact</a>
               </li>
               <li>
-                <NavLink to='dashboard' className="text-[16px] font-medium">Dashboard</NavLink>
+                <NavLink to="dashboard" className="text-[16px] font-medium">
+                  Dashboard
+                </NavLink>
               </li>
             </ul>
           </div>
