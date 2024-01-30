@@ -1,3 +1,4 @@
+import ContactUs from '../ContactUs';
 import EventItems from '../EventItems';
 import Footer from '../Footer';
 import Gallery from '../Gallery';
@@ -19,6 +20,7 @@ const Home = () => {
       <OurTeam/>
       <Gallery/>
       <EventItems/>
+      <ContactUs/>
       <Footer/>
     </div>
   );

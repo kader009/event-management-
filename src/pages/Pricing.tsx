@@ -8,8 +8,8 @@ import pic7 from '../assets/Frame 40.png';
 
 const Pricing = () => {
   return (
-    <div className=" w-full max-w-[1086px] h-[764px] mx-auto pt-[116px] ">
-      <h1 className="text-center font-bold text-[48px] text-[#061C3D] mb-[32px]">
+    <div className=" w-full max-w-[1086px] h-[764px] mx-auto pt-[90px] ">
+      <h1 className="text-center font-bold text-[48px] sm:text-[32px] md:text-[40px] lg:text-[48px] text-[#061C3D] mb-[32px]">
         Explore our pricing plans
       </h1>
       <p className="text-center text-[18px] text-[#566B84] text-wrap">
@@ -73,9 +73,12 @@ const Pricing = () => {
             <img src={pic7} alt="" />
           </div>
         </div>
-        <div className="w-[239px] h-[536px] text-center rounded-md bg-[#FFFFFF]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]"><h1 className='bg-[#0B63E5] rounded-t-md font-medium text-[10px] text-white h-[26px] text-center pt-[7px]'>Popular plan</h1>
+        <div className="w-[239px] h-[536px] text-center rounded-md bg-[#FFFFFF]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
+          <h1 className="bg-[#0B63E5] rounded-t-md font-medium text-[10px] text-white h-[26px] text-center pt-[7px]">
+            Popular plan
+          </h1>
           <h1 className="text-[#000000] font-bold text-[20px] pt-[21px]">
-          Standard
+            Standard
           </h1>
           <h2 className="text-[#156CFE] font-semibold text-[25px] pb-[22px]">
             $35
@@ -102,7 +105,7 @@ const Pricing = () => {
         </div>
         <div className="w-[239px] h-[536px] text-center rounded-md bg-[#FFFFFF]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">
           <h1 className="text-[#000000] font-bold text-[20px] pt-[48px]">
-          Professional
+            Professional
           </h1>
           <h2 className="text-[#156CFE] font-semibold text-[25px] pb-[22px]">
             $15

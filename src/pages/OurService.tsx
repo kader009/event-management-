@@ -10,8 +10,8 @@ import frame5 from '../assets/Frame5.png';
 const OurService = () => {
   return (
     <Container>
-      <div className="text-center mt-[216px] sm:mt-[800px] lg:mt-[216px]">
-        <h1 className="text-[#061C3D] font-extrabold text-[48px]">
+      <div className="text-center mt-[190px] sm:mt-[800px] lg:mt-[190px]">
+        <h1 className="text-[#061C3D] font-extrabold text-[48px] sm:text-[32px] md:text-[40px] lg:text-[48px]">
           Our Services
         </h1>
         <p className="text-wrap text-[#566B84] text-[18px]">

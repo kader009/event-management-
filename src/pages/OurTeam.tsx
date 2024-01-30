@@ -9,7 +9,7 @@ const OurTeam = () => {
   return <Container>
     <div className="mt-[60px] sm:mt-[1070px] lg:mt-[60px]">
       <div className="text-center">
-        <h1 className="text-[#061C3D] font-bold text-[48px]">Meet our <span>Team</span></h1>
+        <h1 className="text-[#061C3D] font-bold text-[48px] sm:text-[32px] md:text-[40px] lg:text-[48px]">Meet our <span>Team</span></h1>
         <p className="text-[#1D1D1F] text-[18px] text-wrap mt-[27px]">All our speakers are fully qualified and licensed. Moreover, theyare incredibly skillful <br /> and proficient in various aspects of events.</p>
       </div>
       <div className="flex justify-center items-center gap-[20px] mt-[60px] flex-wrap">

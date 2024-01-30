@@ -9,8 +9,8 @@ import event6 from '../assets/event6.png';
 const EventItems = () => {
   return (
     <Container>
-      <div className="mt-[80px] ">
-        <h1 className='text-[#061C3D] font-extrabold text-[48px] text-center mb-[12px]'>Event Items</h1>
+      <div className="mt-[116px] sm:mt-[50px] lg:mt-[116px]">
+        <h1 className='text-[#061C3D] font-extrabold text-[48px] text-center mb-[12px] sm:text-[32px] md:text-[40px] lg:text-[48px]'>Event Items</h1>
         <p className='text-[#566B84] text-wrap text-center mb-[40px]'>
           Ut posuere felis arcu tellus tempus in in ultricies.  Gravida id nibh
           ornare viverra.  Ultrices <br /> faucibus neque velit risus ac id lorem.

@@ -18,7 +18,7 @@ const Gallery = () => {
       <div className='sm:mt-[270px] lg:mt-[-20px]'>
 
       <div className='text-center '>
-        <h1 className='text-[#061C3D] font-extrabold text-[48px] mb-[30px]'>Gallery</h1>
+        <h1 className='text-[#061C3D] font-extrabold text-[48px] mb-[30px] sm:text-[32px] md:text-[40px] lg:text-[48px]'>Gallery</h1>
         <p className='text-[18px] text-wrap w-[1100px]flex justify-center items-center text-[#566B84] mb-[50px]'>
           Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh
           ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut

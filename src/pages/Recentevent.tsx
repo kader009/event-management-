@@ -11,7 +11,7 @@ const Recentevent = () => {
     <div className="mt-[280px] flex justify-between items-center flex-wrap sm:gap-[35px] lg:gap-[0px] sm:mt-[1450px] lg:mt-[280px] md:justify-center sm:justify-center lg:justify-between">
       <div className="w-[518px] ">
 
-      <h1 className="text-[#061C3D] font-extrabold text-[48px] mb-[24px]">Recent Events</h1>
+      <h1 className="text-[#061C3D] font-extrabold text-[48px] mb-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px]">Recent Events</h1>
       <p className="text-[#566B84] text-[18px]">Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare viverra. Ultrices faucibus neque velit risus ac id lorem.</p>
       <button className="bg-[#3461FF] text-white  w-[174px] h-[52px] mt-[48px] text-[16px]">Learn more</button>
       </div>

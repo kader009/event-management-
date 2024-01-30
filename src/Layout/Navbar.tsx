@@ -104,7 +104,7 @@ const Navbar = () => {
                   restDelta: 0.001,
                 },
               }}
-              className="text-[64px] font-extrabold mb-[32px] text-[#061C3D] w-[626px] leading-tight"
+              className="text-[64px] sm:text-[32px] md:text-[42px] lg:text-[64px] font-extrabold mb-[32px] text-[#061C3D] w-[626px] leading-tight"
             >
               Best Event management firm
             </motion.h1>

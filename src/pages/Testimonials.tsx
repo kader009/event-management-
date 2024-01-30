@@ -12,7 +12,7 @@ const Testimonials = () => {
       <div className="mt-[250px] sm:mt-[750px] lg:mt-[250px]">
         <div className="flex justify-between items-center sm:flex-col md:flex-col lg:flex-row">
           <div>
-            <h1 className="text-[#061C3D] font-extrabold text-[48px]">
+            <h1 className="text-[#061C3D] font-extrabold text-[48px] sm:text-[32px] md:text-[40px] lg:text-[48px]">
               What client says
             </h1>
             <p className="text-[#566B84] text-[18px] w-[547px]">
@@ -20,7 +20,7 @@ const Testimonials = () => {
               nibh ornare viverra.
             </p>
           </div>
-          <div className="flex gap-[16px]">
+          <div className="flex gap-[16px] sm:mt-[20px] lg:mt-[0px]">
             <div className="bg-[#E7F5E8] rounded-full w-[40px] h-[40px] flex justify-center items-center">
               <img
                 src={arrowleft}
