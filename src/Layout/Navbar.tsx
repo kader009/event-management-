@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { NavLink } from 'react-router-dom';
 
 const TextVariants = {
   hidden: {
@@ -56,6 +57,9 @@ const Navbar = () => {
                   <li>
                     <a className="text-[16px] font-medium">Content</a>
                   </li>
+                  <li>
+                    <NavLink to='dashboard' className="text-[16px] font-medium">Dashboard</NavLink>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -76,6 +80,9 @@ const Navbar = () => {
               </li>
               <li>
                 <a className="text-[16px] font-medium">Contact</a>
+              </li>
+              <li>
+                <NavLink to='dashboard' className="text-[16px] font-medium">Dashboard</NavLink>
               </li>
             </ul>
           </div>
