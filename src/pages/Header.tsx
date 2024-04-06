@@ -14,9 +14,8 @@ const Header = () => {
         </div>
         <div>
           <p className="w-[520px] h-[96px] text-[20px] text-[#061C3D] sm:mt-8 lg:mt-0">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />{' '}
-            Cursus imperdiet sed id elementum. Quam vel aliquam sit <br />{' '}
-            vulputate.
+            In the midst of chaos, find serenity. Embrace the unknown and seek
+            wisdom. Let your heart guide you through uncertainty.
           </p>
         </div>
       </div>
