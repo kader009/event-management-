@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex justify-between items-center mt-[32px] sm:flex-col lg:flex-row md:text-center lg:text-left sm:text-center">
         <div>
           <h1 className="text-[64px] font-extrabold mb-[32px] text-[#061C3D] w-[626px] leading-tight">
-            Best Event management firm
+            Best Event management firms
           </h1>
           <button className="w-[195px] h-[52px] bg-[#0B63E5] text-white text-[16px] font-normal ">
             Explore

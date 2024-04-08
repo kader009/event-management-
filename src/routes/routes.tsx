@@ -3,6 +3,7 @@ import Home from '../pages/Home/index';
 import App from '../App';
 import About from '../pages/About';
 import Dashboard from '../pages/admin/Dashboard';
+import Event from '../pages/Event';
 
 export const routes = createBrowserRouter([
   {
@@ -13,15 +14,19 @@ export const routes = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      {
-        path: '/about',
-        element: <About />,
-      },
+      
     ],
+  },
+  {
+    path: '/about',
+    element: <About />,
+  },
+  {
+    path: '/event',
+    element: <Event />,
   },
   {
     path: 'dashboard',
     element: <Dashboard />,
-    children: [],
   },
 ]);

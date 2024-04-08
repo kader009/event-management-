@@ -52,11 +52,11 @@ const Navbar = () => {
                     <a className="text-[16px] font-medium">Home</a>
                   </li>
                   <li>
-                    <a className="text-[16px] font-medium">About</a>
+                    <NavLink to="/about" className="text-[16px] font-medium">
+                      About
+                    </NavLink>
                   </li>
-                  <li>
-                    <a className="text-[16px] font-medium">Content</a>
-                  </li>
+
                   <li>
                     <NavLink to="dashboard" className="text-[16px] font-medium">
                       Dashboard
@@ -78,11 +78,11 @@ const Navbar = () => {
                 <a className="text-[16px] font-medium">Home</a>
               </li>
               <li>
-                <a className="text-[16px] font-medium">About</a>
+                <NavLink to="/about" className="text-[16px] font-medium">
+                  About
+                </NavLink>
               </li>
-              <li>
-                <a className="text-[16px] font-medium">Contact</a>
-              </li>
+
               <li>
                 <NavLink to="dashboard" className="text-[16px] font-medium">
                   Dashboard
@@ -103,7 +103,7 @@ const Navbar = () => {
                 ease: [0, 0.71, 0.2, 1.01],
                 scale: {
                   type: 'spring',
-                  damping: 5,
+                  damping: 20,
                   stiffness: 100,
                   restDelta: 0.001,
                 },
@@ -112,15 +112,14 @@ const Navbar = () => {
             >
               Best Event management firm
             </motion.h1>
-            <button className="w-[195px] h-[52px] bg-[#0B63E5] text-white text-[16px] font-normal ">
+            <button className="w-[195px] h-[52px] bg-[#0B63E5] text-white text-[16px] font-normal rounded-sm">
               Explore
             </button>
           </div>
           <div>
             <p className="w-[520px] h-[96px] text-[20px] text-[#061C3D] sm:mt-8 lg:mt-0">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br />{' '}
-              Cursus imperdiet sed id elementum. Quam vel aliquam sit <br />{' '}
-              vulputate.
+              In the midst of chaos, find serenity. Embrace the unknown and seek
+              wisdom. Let your heart guide you through uncertainty.
             </p>
           </div>
         </div>

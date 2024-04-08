@@ -14,9 +14,7 @@ const Pricing = () => {
       </h1>
       <p className="text-center text-[18px] text-[#566B84] text-wrap">
         Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh
-        ornare viverra. Ultrices faucibus neque velit risus ac id lorem.Ut
-        posuere felis arcu tellus tempus in in ultricies. Gravida id nibh ornare
-        viverra. Ultrices faucibus neque velit risus ac id lorem.
+        ornare viverra. <br /> Ultrices faucibus neque velit risus ac id lorem.
       </p>
       <div className="mt-[78px]  flex justify-center items-center gap-[25px] flex-wrap px-[10px]">
         <div className="w-[239px] h-[536px] text-center rounded-md bg-[#FFFFFF]  shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px]">

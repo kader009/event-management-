@@ -54,7 +54,7 @@ const OurService = () => {
               <img src={frame4} alt="frame" />
               <img src={frame5} alt="frame" />
             </div>
-            <button className="bg-[#0B63E5] text-white w-[360px] h-[52px] text-[16px] font-bold mt-[45px]">
+            <button className="bg-[#0B63E5] text-white w-[360px] h-[52px] text-[16px] font-bold mt-[45px] rounded-lg">
               Check it out
             </button>
           </div>
