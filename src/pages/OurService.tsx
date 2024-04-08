@@ -23,6 +23,7 @@ const OurService = () => {
           <div className="w-[412px] h-[590px] rounded-md service">
             <img
               src={service1}
+              loading='lazy'
               alt="service picture"
               className="w-[362px] h-[253px] pt-[36px] sm:ms-[25px] md:ms-[25px] lg:ms-[17px] mx-[18px]"
             />
@@ -30,11 +31,11 @@ const OurService = () => {
               Corporate event
             </h1>
             <div className="space-y-[16px] ms-[25px]">
-              <img src={frame1} alt="frame" />
-              <img src={frame2} alt="frame" />
-              <img src={frame3} alt="frame" />
-              <img src={frame4} alt="frame" />
-              <img src={frame5} alt="frame" />
+              <img src={frame1} alt="frame" loading='lazy'/>
+              <img src={frame2} alt="frame" loading='lazy'/>
+              <img src={frame3} alt="frame" loading='lazy'/>
+              <img src={frame4} alt="frame" loading='lazy'/>
+              <img src={frame5} alt="frame" loading='lazy'/>
             </div>
           </div>
           <div className="w-[412px] h-[590px] rounded-md service1">
@@ -48,11 +49,11 @@ const OurService = () => {
               posuere felis arcu tellus tempus in in ultricies.
             </p>
             <div className="space-y-[16px] ms-[25px]">
-              <img src={frame1} alt="frame" />
-              <img src={frame2} alt="frame" />
-              <img src={frame3} alt="frame" />
-              <img src={frame4} alt="frame" />
-              <img src={frame5} alt="frame" />
+              <img src={frame1} alt="frame" loading='lazy'/>
+              <img src={frame2} alt="frame" loading='lazy'/>
+              <img src={frame3} alt="frame" loading='lazy'/>
+              <img src={frame4} alt="frame" loading='lazy'/>
+              <img src={frame5} alt="frame" loading='lazy'/>
             </div>
             <button className="bg-[#0B63E5] text-white w-[360px] h-[52px] text-[16px] font-bold mt-[45px] rounded-lg">
               Check it out
@@ -61,6 +62,7 @@ const OurService = () => {
           <div className="w-[412px] h-[590px] rounded-md service">
             <img
               src={service2}
+              loading='lazy'
               alt="service picture"
               className="w-[362px] h-[253px] pt-[36px] sm:ms-[25px] md:ms-[25px] lg:ms-[17px] mx-[18px]"
             />
@@ -68,11 +70,11 @@ const OurService = () => {
               Organization event
             </h1>
             <div className="space-y-[16px] ms-[25px]">
-              <img src={frame1} alt="frame" />
-              <img src={frame2} alt="frame" />
-              <img src={frame3} alt="frame" />
-              <img src={frame4} alt="frame" />
-              <img src={frame5} alt="frame" />
+              <img src={frame1} alt="frame" loading='lazy'/>
+              <img src={frame2} alt="frame" loading='lazy'/>
+              <img src={frame3} alt="frame" loading='lazy'/>
+              <img src={frame4} alt="frame" loading='lazy'/>
+              <img src={frame5} alt="frame" loading='lazy'/>
             </div>
           </div>
         </div>

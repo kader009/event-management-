@@ -26,14 +26,14 @@ const Recentevent = () => {
         </div>
         <div className="w-[610px] ">
           <div className="flex gap-[20px] justify-center items-center">
-            <img src={recent1} alt="recent" />
-            <img src={recent2} alt="recent" />
-            <img src={recent3} alt="recent" />
+            <img src={recent1} alt="recent" loading='lazy'/>
+            <img src={recent2} alt="recent" loading='lazy'/>
+            <img src={recent3} alt="recent" loading='lazy'/>
           </div>
           <div className="flex gap-[20px] mt-[20px] justify-center items-center">
-            <img src={recent4} alt="recent" />
-            <img src={recent5} alt="recent" />
-            <img src={recent6} alt="recent" />
+            <img src={recent4} alt="recent" loading='lazy'/>
+            <img src={recent5} alt="recent" loading='lazy'/>
+            <img src={recent6} alt="recent" loading='lazy'/>
           </div>
         </div>
       </div>

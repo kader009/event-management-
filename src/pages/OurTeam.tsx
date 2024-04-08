@@ -25,6 +25,7 @@ const OurTeam = () => {
             whileHover={{ y: -10 }}
             transition={{ duration: 0.5, delay: 0.1, ease: 'easeIn' }}
             src={meet1}
+            loading='lazy'
             className="rounded"
             alt="meet image"
           />
@@ -33,6 +34,7 @@ const OurTeam = () => {
             whileHover={{ y: -10 }}
             transition={{ duration: 0.5, delay: 0.1, ease: 'easeIn' }}
             src={meet2}
+            loading='lazy'
             className="rounded"
             alt="meet image"
           />
@@ -41,6 +43,7 @@ const OurTeam = () => {
             whileHover={{ y: -10 }}
             transition={{ duration: 0.5, delay: 0.1, ease: 'easeIn' }}
             src={meet3}
+            loading='lazy'
             className="rounded"
             alt="meet image"
           />
@@ -49,6 +52,7 @@ const OurTeam = () => {
             whileHover={{ y: -10 }}
             transition={{ duration: 0.5, delay: 0.1, ease: 'easeIn' }}
             src={meet4}
+            loading='lazy'
             className="rounded"
             alt="meet image"
           />

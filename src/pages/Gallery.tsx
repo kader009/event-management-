@@ -22,37 +22,36 @@ const Gallery = () => {
           </h1>
           <p className="text-[18px] text-wrap w-[1100px]flex justify-center items-center text-[#566B84] mb-[50px]">
             Ut posuere felis arcu tellus tempus in in ultricies. Gravida id nibh
-            ornare viverra. Ultrices faucibus neque <br /> velit risus ac id lorem. Ut
-            posuere felis arcu tellus tempus in in ultricies.
+            ornare viverra. <br /> Ultrices faucibus neque velit risus ac id lorem.
           </p>
         </div>
         {/* image sections */}
         <div className="flex justify-center items-center ">
           <div>
-            <img src={picture1} alt="pictures" />
-            <img src={picture2} alt="pictures" />
+            <img src={picture1} alt="pictures" loading='lazy'/>
+            <img src={picture2} alt="pictures" loading='lazy'/>
           </div>
           <div>
-            <img src={picture3} alt="picture" />
+            <img src={picture3} alt="picture" loading='lazy'/>
           </div>
           <div>
-            <img src={picture4} alt="picture" />
-            <img src={picture5} alt="picture" />
+            <img src={picture4} alt="picture" loading='lazy'/>
+            <img src={picture5} alt="picture" loading='lazy'/>
           </div>
           <div>
-            <img src={picture6} alt="picture" />
-            <img src={picture7} alt="picture" />
+            <img src={picture6} alt="picture" loading='lazy'/>
+            <img src={picture7} alt="picture" loading='lazy'/>
           </div>
           <div>
-            <img src={picture8} alt="picture" />
-            <img src={picture9} alt="picture" />
+            <img src={picture8} alt="picture" loading='lazy'/>
+            <img src={picture9} alt="picture" loading='lazy'/>
           </div>
           <div>
-            <img src={picture10} alt="picture" />
+            <img src={picture10} alt="picture" loading='lazy'/>
           </div>
           <div>
-            <img src={picture11} alt="picture" />
-            <img src={picture12} alt="picture" />
+            <img src={picture11} alt="picture" loading='lazy'/>
+            <img src={picture12} alt="picture" loading='lazy'/>
           </div>
         </div>
       </div>

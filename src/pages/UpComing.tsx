@@ -38,7 +38,7 @@ const UpComing = () => {
             </div>
             <div className="divider w-[472px]"></div>
             <div className="flex gap-[20px]">
-              <img src={Cpu} alt="stack" className="w-[40px] h-[40px]" />
+              <img src={Cpu} loading='lazy' alt="stack" className="w-[40px] h-[40px]" />
               <div>
                 <h1 className="text-[#061C3D] text-[20px] font-medium">
                   Music Events at LA
@@ -55,6 +55,7 @@ const UpComing = () => {
           <img
             src={companyimage}
             alt="company image"
+            loading='lazy'
             className="w-[500px] h-[500px]"
           />
         </div>
@@ -65,12 +66,12 @@ const UpComing = () => {
           Trusted Customers
         </p>
         <div className="flex justify-around items-center mt-[24px] flex-wrap">
-          <img src={company1} alt="company image" />
-          <img src={company2} alt="company image" />
-          <img src={company3} alt="company image" />
-          <img src={company4} alt="company image" />
-          <img src={company5} alt="company image" />
-          <img src={company6} alt="company image" />
+          <img src={company1} alt="company image" loading='lazy'/>
+          <img src={company2} alt="company image" loading='lazy'/>
+          <img src={company3} alt="company image" loading='lazy'/>
+          <img src={company4} alt="company image" loading='lazy'/>
+          <img src={company5} alt="company image" loading='lazy'/>
+          <img src={company6} alt="company image" loading='lazy'/>
         </div>
       </div>
     </Container>

@@ -13,7 +13,9 @@ const About = () => {
       <div className="navbar bg-base-100">
         <div className="flex-1">
           <div className="flex-1  text-[32px] font-semibold text-[#000000]">
-            Event<span className="ml-1 text-[#0B63E5]">City</span>
+            <NavLink to="/">
+              Event<span className="ml-1 text-[#0B63E5]">City</span>
+            </NavLink>
           </div>
         </div>
         <div className="flex-none">
@@ -27,7 +29,9 @@ const About = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to='/event' className="text-[16px] font-medium">Event</NavLink>
+              <NavLink to="/event" className="text-[16px] font-medium">
+                Event
+              </NavLink>
             </li>
           </ul>
         </div>
@@ -51,6 +55,7 @@ const About = () => {
             <div>
               <img
                 src={img5}
+                loading='lazy'
                 alt="about img"
                 className="w-64 h-96 rounded-lg"
               />
@@ -96,10 +101,10 @@ const About = () => {
       <section className="my-12">
         <div className="text-center mt-12 ">
           <span className="text-white font-medium uppercase rounded-md py-1 px-3 text-xs border border-[#0B63E5] bg-[#0B63E5] ">
-          OUR FAQ
+            OUR FAQ
           </span>
           <h1 className="text-[2.25rem] font-medium text-center mt-5">
-          Frequently Asked Questions ?
+            Frequently Asked Questions ?
           </h1>
         </div>
         <div className="my-12 flex justify-center items-center gap-5 md:flex-col sm:flex-col lg:flex-row">

@@ -7,7 +7,9 @@ const Event = () => {
       <div className="navbar bg-base-100">
         <div className="flex-1">
           <div className="flex-1  text-[32px] font-semibold text-[#000000]">
-            Event<span className="ml-1 text-[#0B63E5]">City</span>
+            <NavLink to="/">
+              Event<span className="ml-1 text-[#0B63E5]">City</span>
+            </NavLink>
           </div>
         </div>
         <div className="flex-none">
@@ -29,15 +31,23 @@ const Event = () => {
         </div>
       </div>
 
-
-<section className='mt-10'>
-  <div className='text-center'>
-    <h4 className='tracking-[2px] text-[#0B63E5] text-[18px] font-semibold'>SCHEDULE OF EVENT</h4>
-    <h1 className='text-[44px] font-bold text-black'>List of Events Planned </h1>
-    <p className='text-[18px] text-[#6d6c6c] pb-4'>This is a detailed list event of conference for digital technology 2024.</p>
-    <button className='py-[20px] px-[30px] text-white bg-[#0B63E5] font-bold rounded-sm hover:translate-y-3'>DOWNLOAD SCHEDULE </button>
-  </div>
-</section>
+      <section className="mt-10">
+        <div className="text-center">
+          <h4 className="tracking-[2px] text-[#0B63E5] text-[18px] font-semibold">
+            SCHEDULE OF EVENT
+          </h4>
+          <h1 className="text-[44px] font-bold text-black">
+            List of Events Planned{' '}
+          </h1>
+          <p className="text-[18px] text-[#6d6c6c] pb-4">
+            This is a detailed list event of conference for digital technology
+            2024.
+          </p>
+          <button className="py-[18px] px-[28px] text-white bg-[#0B63E5] font-bold rounded-sm hover:translate-y-2">
+            DOWNLOAD SCHEDULE
+          </button>
+        </div>
+      </section>
 
       <div className="flex justify-center items-center my-16">
         <div className="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:ml-[8.75rem] md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
