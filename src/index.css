@@ -11,6 +11,7 @@ html {
 /* event image */
 .event {
   background-image: url('/src/assets/Images.png');
+  border-radius: 0.6rem;
 }
 
 /* service */

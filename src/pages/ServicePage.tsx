@@ -34,7 +34,7 @@ const EventManagementService = () => {
         className="relative bg-cover bg-center h-[100vh] flex items-center justify-center"
         style={{
           backgroundImage:
-            'url(https://images.unsplash.com/photo-1510070009289-b5bc34383727?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+            'url(https://images.unsplash.com/photo-1470225620780-dba8ba36b745?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
         }}
       >
         <div className="bg-black bg-opacity-50 p-8 rounded-lg text-center">
@@ -216,7 +216,7 @@ const EventManagementService = () => {
           <p className="mt-4 text-lg">
             Contact us today to discuss your event management needs.
           </p>
-          <button className="mt-6 bg-black text-white px-6 py-3 rounded-md hover:bg-gray-100">
+          <button className="mt-6 bg-black text-white px-6 py-3 rounded-md hover:bg-blue-500">
             Contact Us
           </button>
         </div>

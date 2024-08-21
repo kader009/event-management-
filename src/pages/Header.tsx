@@ -19,7 +19,7 @@ const Header = () => {
           </p>
         </div>
       </div>
-      <div className="event w-full max-w-[1276px] h-[608px] bg-no-repeat bg-cover mt-[48px] bg-center"></div>
+      <div className="event w-full max-w-[1276px] rounded h-[608px] bg-no-repeat bg-cover mt-[48px] bg-center"></div>
     </Container>
   );
 };
