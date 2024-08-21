@@ -4,6 +4,7 @@ import App from '../App';
 import About from '../pages/About';
 import Dashboard from '../pages/admin/Dashboard';
 import Event from '../pages/Event';
+import ServicePage from '../pages/ServicePage';
 
 export const routes = createBrowserRouter([
   {
@@ -28,5 +29,9 @@ export const routes = createBrowserRouter([
   {
     path: 'dashboard',
     element: <Dashboard />,
+  },
+  {
+    path: '/service',
+    element: <ServicePage />,
   },
 ]);

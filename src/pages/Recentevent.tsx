@@ -20,7 +20,7 @@ const Recentevent = () => {
             posuere felis arcu tellus tempus in in ultricies. Gravida id nibh
             ornare viverra. Ultrices faucibus neque velit risus ac id lorem.
           </p>
-          <button className="bg-[#3461FF] text-white  w-[174px] h-[52px] mt-[30px] text-[16px] rounded-sm">
+          <button className="bg-[#0B63E5] text-white  w-[174px] h-[52px] mt-[30px] text-[16px] rounded-sm">
             Learn more
           </button>
         </div>

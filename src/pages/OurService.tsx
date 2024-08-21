@@ -55,7 +55,7 @@ const OurService = () => {
               <img src={frame4} alt="frame" loading='lazy'/>
               <img src={frame5} alt="frame" loading='lazy'/>
             </div>
-            <button className="bg-[#0B63E5] text-white w-[360px] h-[52px] text-[16px] font-bold mt-[45px] rounded-lg">
+            <button className="bg-[#0B63E5] text-white w-[360px] h-[52px] text-[16px] font-bold mt-[45px] rounded-sm">
               Check it out
             </button>
           </div>

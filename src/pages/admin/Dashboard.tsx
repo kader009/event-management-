@@ -56,7 +56,7 @@ const data = [
 
 const Dashboard = () => {
   return (
-    <div className="mx-10">
+    <div className="mx-16">
       <div className="navbar bg-base-100">
         <div className="flex-1">
           <div className="flex-1  text-[32px] font-semibold text-[#000000]">
@@ -71,7 +71,7 @@ const Dashboard = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <a className="text-[16px] font-medium">Service</a>
+              <NavLink to='/service' className="text-[16px] font-medium">Service</NavLink>
             </li>
             <li>
               <NavLink to="/event" className="text-[16px] font-medium">
@@ -81,7 +81,7 @@ const Dashboard = () => {
           </ul>
         </div>
       </div>
-      <div className="flex justify-center items-center gap-10 flex-wrap mt-5">
+      <div className="flex justify-center items-center gap-7 flex-wrap mt-5">
         <div className="card w-80 bg-base-100 shadow-xl">
           <div className="card-body">
             <h2 className="card-title text-sm">Total Revenue</h2>
