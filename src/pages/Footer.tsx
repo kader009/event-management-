@@ -3,7 +3,7 @@ const Footer = () => {
     <div className="sm:mt-[100px] lg:mt-[180px]">
       <footer className="text-white footer p-10 bg-[#171611] ">
         <aside>
-          <div className=" text-[32px] font-semibold text-[#000000]">
+          <div className=" text-[32px] font-semibold text-[#fff]">
             Event<span className="ml-1 text-[#0B63E5]">City</span>
           </div>
         </aside>

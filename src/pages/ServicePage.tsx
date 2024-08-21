@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 const EventManagementService = () => {
   return (
@@ -17,7 +17,9 @@ const EventManagementService = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to='/service' className="text-[16px] font-medium">Service</NavLink>
+              <NavLink to="/service" className="text-[16px] font-medium">
+                Service
+              </NavLink>
             </li>
             <li>
               <NavLink to="/event" className="text-[16px] font-medium">
@@ -28,7 +30,13 @@ const EventManagementService = () => {
         </div>
       </div>
       {/* Hero Section */}
-      <div className="relative bg-cover bg-center h-[80vh] flex items-center justify-center" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1494790108377-be9c29b29330)' }}>
+      <div
+        className="relative bg-cover bg-center h-[100vh] flex items-center justify-center"
+        style={{
+          backgroundImage:
+            'url(https://images.unsplash.com/photo-1510070009289-b5bc34383727?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
+        }}
+      >
         <div className="bg-black bg-opacity-50 p-8 rounded-lg text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-white">
             Make Your Event Unforgettable
@@ -66,9 +74,12 @@ const EventManagementService = () => {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-800">Wedding Planning</h3>
+              <h3 className="text-xl font-semibold text-gray-800">
+                Wedding Planning
+              </h3>
               <p className="mt-4 text-gray-600">
-                From venue selection to guest management, we make your special day perfect.
+                From venue selection to guest management, we make your special
+                day perfect.
               </p>
             </div>
 
@@ -94,9 +105,12 @@ const EventManagementService = () => {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-800">Corporate Events</h3>
+              <h3 className="text-xl font-semibold text-gray-800">
+                Corporate Events
+              </h3>
               <p className="mt-4 text-gray-600">
-                Professional management for conferences, meetings, and corporate events.
+                Professional management for conferences, meetings, and corporate
+                events.
               </p>
             </div>
 
@@ -117,9 +131,12 @@ const EventManagementService = () => {
                   />
                 </svg>
               </div>
-              <h3 className="text-xl font-semibold text-gray-800">Private Parties</h3>
+              <h3 className="text-xl font-semibold text-gray-800">
+                Private Parties
+              </h3>
               <p className="mt-4 text-gray-600">
-                Whether it's a birthday, anniversary, or any celebration, we got you covered.
+                Whether it's a birthday, anniversary, or any celebration, we got
+                you covered.
               </p>
             </div>
           </div>
@@ -135,7 +152,8 @@ const EventManagementService = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
               <p className="text-gray-600">
-                "The team was fantastic! They handled everything and made sure our wedding was magical."
+                "The team was fantastic! They handled everything and made sure
+                our wedding was magical."
               </p>
               <div className="mt-4 flex items-center gap-3">
                 <img
@@ -152,7 +170,8 @@ const EventManagementService = () => {
 
             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
               <p className="text-gray-600">
-                "Our corporate event was a success thanks to their attention to detail and professionalism."
+                "Our corporate event was a success thanks to their attention to
+                detail and professionalism."
               </p>
               <div className="mt-4 flex items-center gap-3">
                 <img
@@ -169,7 +188,8 @@ const EventManagementService = () => {
 
             <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
               <p className="text-gray-600">
-                "I couldn't have asked for a better event manager for my birthday party. Everything was perfect!"
+                "I couldn't have asked for a better event manager for my
+                birthday party. Everything was perfect!"
               </p>
               <div className="mt-4 flex items-center gap-3">
                 <img
@@ -196,7 +216,7 @@ const EventManagementService = () => {
           <p className="mt-4 text-lg">
             Contact us today to discuss your event management needs.
           </p>
-          <button className="mt-6 bg-white text-blue-500 px-6 py-3 rounded-md hover:bg-gray-100">
+          <button className="mt-6 bg-black text-white px-6 py-3 rounded-md hover:bg-gray-100">
             Contact Us
           </button>
         </div>
